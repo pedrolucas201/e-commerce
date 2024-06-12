@@ -1,0 +1,19 @@
+{
+  "name": "for-street",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./styles/style.css -o ./styles/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "yaml": "^2.4.2"
+  }
+}

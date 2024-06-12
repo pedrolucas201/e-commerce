@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="styles/output.css" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Street</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="w-full h-[420px] bg-purple-900 bg-home bg-cover bg-center">
+      <div class="flex flex-col justify-center items-center h-full w-full">
+        <img
+          src="assets/for_street_logo.png"
+          alt="Logo ForStreet"
+          class="w-32 h-33 rounded-full shadow-lg hover:scale-110 duration-300"
+        />
+        <h1 class="text-4xl font-bold text-white mt-4 mb-2">For Street</h1>
+
+        <span class="text-white font-medium">
+          Endereço da sua loja, Cidade - Estado
+        </span>
+
+        <div class="bg-purple-600 px-4 py-1 rounded-lg mt-5" id="date-span">
+          <span class="text-white font-medium">Seg á Sexta - 8h às 18h</span>
+        </div>
+      </div>
+    </header>
+    <!-- FIM HEADER -->
+
+    <h1
+      class="text-purple-900 text-3xl text-center font-bold px-4 mt-9 mb-6 md:text-4xl"
+    >
+      Camisas & Moletons
+    </h1>
+
+    <!-- INICIO MAIN -->
+
+    <div class="" id="menu">
+      <main
+        class="grid grid-cols-1 md:grid-cols-2 gap-7 mx-auto max-w-7xl px-2 mb-16"
+      >
+        <!-- INICIO PRODUTO ITEM -->
+        <div class="flex gap-2">
+          <img
+            src="assets/moletom_1.png"
+            alt="Moletom High"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300"
+          />
+
+          <div class="">
+            <p class="font-bold">Moletom</p>
+            <p class="text-sm">100% algodão feito das ovelhas do himalaia.</p>
+
+            <div class="flex items-center gap-2 justify-between mt-3">
+              <p class="font-bold text-lg">R$ 180.00</p>
+              <button
+                class="bg-purple-800 px-5 hover:scale-90 rounded add-to-cart"
+                data-name="Moletom High"
+                data-price="180.00"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- FIM PRODUTO ITEM -->
+
+        <!-- INICIO PRODUTO ITEM -->
+        <div class="flex gap-2">
+          <img
+            src="assets/camisa_1.png"
+            alt="Moletom High"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300"
+          />
+
+          <div>
+            <p class="font-bold">Camisa</p>
+            <p class="text-sm">100% algodão feito das ovelhas do himalaia.</p>
+
+            <div class="flex items-center gap-2 justify-between mt-3">
+              <p class="font-bold text-lg">R$ 180.00</p>
+              <button
+                class="bg-purple-800 px-5 hover:scale-90 rounded add-to-cart"
+                data-name="Camisa High"
+                data-price="180.00"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- FIM PRODUTO ITEM -->
+
+        <!-- INICIO PRODUTO ITEM -->
+        <div class="flex gap-2">
+          <img
+            src="assets/moletom_1.png"
+            alt="Moletom High"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300"
+          />
+
+          <div>
+            <p class="font-bold">Moletom</p>
+            <p class="text-sm">100% algodão feito das ovelhas do himalaia.</p>
+
+            <div class="flex items-center gap-2 justify-between mt-3">
+              <p class="font-bold text-lg">R$ 180.00</p>
+              <button
+                class="bg-purple-800 px-5 hover:scale-90 rounded add-to-cart"
+                data-name="Moletom High"
+                data-price="180.00"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- FIM PRODUTO ITEM -->
+
+        <!-- INICIO PRODUTO ITEM -->
+        <div class="flex gap-2">
+          <img
+            src="assets/camisa_1.png"
+            alt="Moletom High"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300"
+          />
+
+          <div>
+            <p class="font-bold">Camisa</p>
+            <p class="text-sm">100% algodão feito das ovelhas do himalaia.</p>
+
+            <div class="flex items-center gap-2 justify-between mt-3">
+              <p class="font-bold text-lg">R$ 180.00</p>
+              <button
+                class="bg-purple-800 px-5 hover:scale-90 rounded add-to-cart"
+                data-name="Camisa High"
+                data-price="180.00"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- FIM PRODUTO ITEM -->
+      </main>
+
+      <div class="mx-auto max-w-7xl px-2 my-2">
+        <h1 class="text-purple-900 font-bold text-3xl md:text-4xl text-center">
+          Calças & Bermudas
+        </h1>
+      </div>
+
+      <!-- GRID CALÇAS E BERMUDAS -->
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 gap-7 mx-auto max-w-7xl px-2 mb-16"
+      >
+        <!-- INICIO PRODUTO ITEM -->
+        <div class="flex gap-2">
+          <img
+            src="assets/berma.png"
+            alt="Bermuda Palm Anges"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300"
+          />
+
+          <div>
+            <p class="font-bold">Bermuda</p>
+            <p class="text-sm">100% algodão feito das ovelhas do himalaia.</p>
+
+            <div class="flex items-center gap-2 justify-between mt-3">
+              <p class="font-bold text-lg">R$ 60.00</p>
+              <button
+                class="bg-purple-800 px-5 hover:scale-90 rounded add-to-cart"
+                data-name="Bermuda Palm Anges"
+                data-price="60.00"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- FIM PRODUTO ITEM -->
+
+        <!-- INICIO PRODUTO ITEM -->
+        <div class="flex gap-2">
+          <img
+            src="assets/calca.png"
+            alt="Calça Balenciaga"
+            class="w-28 h-28 rounded-md hover:scale-110 hover:rotate-2 duration-300"
+          />
+
+          <div>
+            <p class="font-bold">Calça</p>
+            <p class="text-sm">100% algodão feito das ovelhas do himalaia.</p>
+
+            <div class="flex items-center gap-2 justify-between mt-3">
+              <p class="font-bold text-lg">R$ 110.00</p>
+              <button
+                class="bg-purple-800 px-5 hover:scale-90 rounded add-to-cart"
+                data-name="Calça Balenciaga"
+                data-price="110.00"
+              >
+                <i class="fa fa-cart-plus text-lg text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- FIM PRODUTO ITEM -->        
+
+      </div>
+      <!-- FIM GRID CALÇAS E BERMUDAS -->
+    </div>
+    <!-- FIM MAIN -->
+
+    <!-- INICIO MODAL -->
+    <div
+      class="bg-black/60 h-full w-full fixed top-0 left-0 z-[99] flex items-center justify-center hidden"
+      id="cart-modal"
+    >
+      <div class="bg-white rounded-md p-5 min-w-[90%] md:min-w-[600px]">
+        <h2 class="text-center font-bold text-2xl">Carrinho</h2>
+
+        <div id="cart-items" class="flex flex-col justify-between mb-2"></div>
+          
+        <p class="font-bold" id="cart-total">Total: 00.0</p>
+          
+        <p class="font-bold mt-4 mb-2">Endereço de Entrega:</p>
+          
+        <input
+            type="text"
+            placeholder="Digite seu endereço..."
+            id="address"
+            class="w-full border-2 p-1 rounded shadow-lg my-1"
+          />
+          
+          <p id="address-warn" class="hidden text-red-500 font-semibold">
+            Digite seu endereço completo!!
+          </p>
+        
+
+        <div class="w-full flex justify-between mt-4">
+          <button
+            id="close-modal-btn"
+            class="text-purple-600 font-bold shadow-lg hover:scale-110"
+          >
+            Fechar
+          </button>
+          <button
+            id="checkout-btn"
+            class="text-white bg-purple-600 hover:scale-110 rounded px-4 py-1 shadow-lg"
+          >
+            Finalizar Pedido
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- FIM MODAL -->
+
+    <!-- INICIO FOOTER -->
+    <footer
+      class="w-full bg-purple-500 py-3 fixed bottom-0 z-40 flex items-center justify-center"
+    >
+      <button
+        id="cart-btn"
+        class="flex items-center gap-2 text-white font-bold"
+      >
+        (<span id="cart-count">0</span>) Veja seu Carrinho
+        <i class="fa fa-cart-plus text-white text-lg"></i>
+      </button>
+    </footer>
+    <!-- FIM DO FOOTER -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
